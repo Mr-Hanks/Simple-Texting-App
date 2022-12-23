@@ -43,7 +43,7 @@
             <div id="textdisplay">
                 <div class="text">
                     <?php
-                    $db = new mysqli("localhost", "INFX371", "P*ssword", "texts");
+                    $db = new mysqli("localhost", "root", "", "texts");
                     $input = "SELECT * FROM texts";
                     $result = $db->query($input);
         
